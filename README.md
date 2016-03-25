@@ -20,7 +20,7 @@ Now we have cloned the kernel for 6.0 we can start build by typing the command (
 
 > ./build60.sh
 
-The kernel is located in the directory "kernel60/arch/arm64/boot/Image tools/boot60/kernel"
+The kernel is located in the directory "kernel60/arch/arm64/boot/"
 
 ## Make boot image for android 6.0
 
@@ -41,7 +41,7 @@ Now we have cloned the kernel for 5.0 and 5.1 we can start build by typing the c
 
 > ./build5.sh
 
-The kernel is located in the directory "kernel60/arch/arm64/boot/Image tools/boot60/kernel"
+The kernel is located in the directory "kernel5/arch/arm64/boot/"
 
 ## Make boot image for android 5.0
 
