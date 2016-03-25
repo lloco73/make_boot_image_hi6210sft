@@ -1,4 +1,4 @@
-# make boot image for hi6210sft P8 Lite
+# make boot image for hi6210sft P8 Lite ALE-21
 
 This readme is to help you make a boot.img for hi6210sft P8 Lite
 
