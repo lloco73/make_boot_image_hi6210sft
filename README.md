@@ -1,10 +1,10 @@
-# make boot image for hi6210sft P8 Lite ALE-21
+# make boot image for hi6210sft Honor 4c / G Play Mini
 
-This readme is to help you make a boot.img for hi6210sft P8 Lite
+This readme is to help you make a boot.img for hi6210sft Honor 4c / G Play Mini
 
 To download all this files you need to make a folder and add this repo.
 
-> git clone -b master https://github.com/olrak2/make_boot_image_hi6210sft/ kernel/
+> git clone -b master https://github.com/lloco73/make_boot_image_hi6210sft/ kernel/
 
 Now we have download everything we need to download the kernel sources. Go into the kernel dir
 
@@ -14,7 +14,7 @@ Now we have download everything we need to download the kernel sources. Go into 
 
 Clone the repo of kernel source 6.0 of hi6210sft
 
-> git clone -b android-6.0 https://github.com/olrak2/android_kernel_huawei_hi6210sft/ kernel60/
+> git clone -b android-6.0 https://github.com/loco73/android_kernel_huawei_hi6210sft/ kernel60/
 
 Now we have cloned the kernel for 6.0 we can start build by typing the command (this will take a while)
 
@@ -30,6 +30,9 @@ To make the boot img we can start the command:
 > ./makeimg60.sh
 
 The location for the image is this: "tools/boot60.img".  You can flash it with fastboot.
+
+
+
 
 ## Make kernel for android 5.0 and android 5.1
 
