@@ -673,3 +673,6 @@ service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
     group input
+
+service sysinit /system/bin/sysinit
+oneshot
